@@ -19,8 +19,6 @@ Large language models often generate impressive but factually inconsistent or ha
 
 ## Architecture
 
-```mermaid
-graph LR
     PDF[PDF Document] --> Chunker[Semantic Chunking]
     Chunker --> Embeddings[Vector Embeddings (HuggingFace)]
     Embeddings --> FAISS[FAISS Vector Store]
