@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langchain
+transformers
+sentence-transformers
+faiss-cpu
+pypdf
+streamlit
+requests
+tf-keras
+python-multipart
