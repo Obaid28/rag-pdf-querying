@@ -42,6 +42,18 @@ Large language models often generate impressive but factually inconsistent or ha
 
 -----------------------------------------------------------------------------------------------------------
 
+## Usage
+
+Upload PDF: Use the Streamlit UI to upload a PDF document.
+
+Build index: The backend will chunk, embed, and index the document automatically.
+
+Query: Enter your question. The system retrieves relevant chunks and generates a grounded answer.
+
+View sources: Retrieved chunks and metadata are displayed to verify response provenance.
+
+-----------------------------------------------------------------------------------------------------------
+
 ## How to Run
 
 ```bash
@@ -57,15 +69,3 @@ curl -X POST http://127.0.0.1:8000/query/ \
 In another terminal, run the Streamlit app:
 
 streamlit run streamlit_app.py
-
------------------------------------------------------------------------------------------------------------
-
-## Usage
-
-Upload PDF: Use the Streamlit UI to upload a PDF document.
-
-Build index: The backend will chunk, embed, and index the document automatically.
-
-Query: Enter your question. The system retrieves relevant chunks and generates a grounded answer.
-
-View sources: Retrieved chunks and metadata are displayed to verify response provenance.
